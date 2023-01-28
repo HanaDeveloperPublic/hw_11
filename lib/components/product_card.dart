@@ -3,10 +3,10 @@ import 'package:hw_11/models/product_model.dart';
 
 class productCard extends StatelessWidget {
   const productCard({
-    Product? product,
+    required this.pro,
     Key? key,
   }) : super(key: key);
-
+  final Product pro;
   @override
   Widget build(BuildContext context) {
     return Container(
